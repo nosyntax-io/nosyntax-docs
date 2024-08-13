@@ -21,7 +21,10 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/nosyntax-io/nosyntax-docs',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          exclude: ['docs/index.md'],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -31,7 +34,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'My Site',
@@ -40,12 +42,6 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
