@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
-
+      
 jobs:
   build-and-deploy:
     name: Build & Deploy
@@ -27,7 +26,6 @@ jobs:
           server: ${{ secrets.DOCS_FTP_SERVER }}
           username: ${{ secrets.DOCS_FTP_USERNAME }}
           password: ${{ secrets.DOCS_FTP_PASSWORD }}
-          protocol: ftps
           port: 21
           local-dir: build/
           dangerous-clean-slate: true
