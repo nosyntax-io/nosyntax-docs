@@ -2,9 +2,9 @@
 slug: /integrations/firebase
 title: Firebase
 description: Firebase
-tags: []
+tags: [Firebase]
 sidebar_position: 0
-keywords: []
+keywords: [Firebase]
 ---
 
 # Firebase
