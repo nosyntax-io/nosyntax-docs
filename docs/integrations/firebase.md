@@ -2,9 +2,9 @@
 slug: /integrations/firebase
 title: Firebase
 description: Firebase
-tags: [Firebase]
+tags: [Firebase, Integration, Analytics, Crash Reporting]
 sidebar_position: 0
-keywords: [Firebase]
+keywords: [NoSyntax, Firebase, Integration, Analytics, Crash Reporting]
 ---
 
 # Firebase
@@ -15,7 +15,7 @@ performance, and maintain stability, enhancing the overall user experience.
 
 ## Firebase Setup
 
-To integrate Firebase with your app, you first need to create and configure a Firebase project. This section will guide you through the setup process.
+To integrate Firebase with your app, you first need to create and configure a Firebase project. Follow the steps below to set up your Firebase project.
 
 ### Create a Firebase Project
 
@@ -41,7 +41,7 @@ After creating your Firebase project, follow these steps to add your app to Fire
 
 2. Enter your app's package name and nickname, then click **Register App**.
 
-3. Click **Download google-services.json** to get your config file. Keep it secure; you'll need it for the next steps.
+3. Click **Download google-services.json** to download your config file. Keep it secure as you'll need it later.
 
 4. Skip the Firebase SDK integration step, as it has already been set up.
 
@@ -63,6 +63,22 @@ To enable Firebase in NoSyntax after setting up your Firebase project, follow th
 
 2. Upload the Firebase config file you downloaded.
 
-   ![img_2.png](https://via.placeholder.com/1920x1080)
-
 3. Rebuild your app to apply the changes.
+
+## Manual Integration
+
+If you've downloaded the foundation template, which comes as a basic setup without pre-configurations, you can manually set up Firebase. The necessary dependencies and code are already included.
+
+### Android Setup Instructions
+
+To manually configure Firebase for Android, follow these steps:
+
+1. Place the config file into the **module (app-level)** root directory of your project.
+
+2. Rebuild the project to apply the changes.
+
+:::warning[Please note]
+
+Ensure the package name in your app's **app-config.yml** file matches the one in your Firebase project. A mismatch will cause the build to fail with the error: **"No matching client found for package name: [package name]"**.
+
+:::
