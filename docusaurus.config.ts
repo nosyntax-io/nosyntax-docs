@@ -21,7 +21,7 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/nosyntax-io/nosyntax-docs',
+          editUrl: 'https://github.com/nosyntax-io/nosyntax-docs/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           exclude: ['docs/index.md'],
