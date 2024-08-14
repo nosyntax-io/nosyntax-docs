@@ -23,7 +23,7 @@ jobs:
       - name: Deploy to Server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp://86.38.202.74
+          server: 86.38.202.74
           username: ${{ secrets.DOCS_FTP_USERNAME }}
           password: ${{ secrets.DOCS_FTP_PASSWORD }}
           port: 21
