@@ -32,13 +32,15 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      respectPrefersColorScheme: true
+    },
     navbar: {
-      title: 'My Site',
+      title: 'NoSyntax Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'NoSyntax Docs',
         src: 'img/logo.svg',
       },
       items: [
@@ -50,7 +52,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         
       ],
