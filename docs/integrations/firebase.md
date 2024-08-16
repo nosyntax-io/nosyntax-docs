@@ -9,13 +9,11 @@ keywords: [NoSyntax, Firebase, Integration, Analytics, Crash Reporting]
 
 # Firebase
 
-Integrating Firebase with your application unlocks powerful features such as push notifications,
-analytics, crash reporting, and more. These tools allow you to engage users effectively, monitor app
-performance, and maintain stability, enhancing the overall user experience.
+Integrating Firebase with your application provides access to essential tools like push notifications, analytics, crash reporting, and more. These tools allow you to engage users effectively, monitor app performance, and maintain stability, helping you keep your application functional and reliable.
 
 ## Firebase Setup
 
-To integrate Firebase with your app, you first need to create and configure a Firebase project. Follow the steps below to set up your Firebase project.
+To integrate Firebase with your app, you'll need to create and configure a Firebase project.
 
 ### Create a Firebase Project
 
@@ -29,11 +27,11 @@ Follow these steps to create a Firebase project:
 
 4. Click **Create a Project** to complete the setup.
 
-For a detailed step-by-step guide, watch the walkthrough video below.
+For a detailed step-by-step guide, watch the walkthrough video below:
 
 <div class="video-container"><iframe src="https://www.youtube.com/embed/NJMW2app0VI?si=m6R2P98M5j_Ca04d" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-### Add Firebase to Your Android App
+### Adding Firebase to Your App
 
 After creating your Firebase project, follow these steps to add your app to Firebase:
 
@@ -69,9 +67,7 @@ To enable Firebase in NoSyntax after setting up your Firebase project, follow th
 
 If you've downloaded the foundation template, which comes as a basic setup without pre-configurations, you can manually set up Firebase. The necessary dependencies and code are already included.
 
-### Android Setup Instructions
-
-To manually configure Firebase for Android, follow these steps:
+To configure Firebase manually, follow these steps:
 
 1. Place the config file into the **module (app-level)** root directory of your project.
 
