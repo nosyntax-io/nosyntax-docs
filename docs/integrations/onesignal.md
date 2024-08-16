@@ -11,11 +11,15 @@ keywords: [OneSignal]
 
 Integrating OneSignal with your application provides advanced push notification features such as targeted messaging, in-app messaging, and user segmentation. These features boost user engagement and improve the overall experience by delivering personalized and timely notifications.
 
+:::note[Prerequisites]
+  OneSignal relies on Firebase to function. To integrate OneSignal with your app, start by creating and configuring a Firebase project. For detailed instructions, refer to the [**Firebase Setup**](https://docs.nosyntax.io/integrations/firebase) guide. 
+:::
+
 ## OneSignal Setup
 
 To integrate OneSignal with your app, you need to create and configure a OneSignal app. This section will guide you through the setup process.
 
-### Create a OneSignal App
+### Creating a OneSignal App
 
 Follow these steps to create a OneSignal app:
 
@@ -43,11 +47,11 @@ Now, you need to obtain the Service Account file from Firebase. Follow these ste
 
 1. Upload the service account JSON file you downloaded from Firebase.
 
-2. Click "Save & Continue".
+2. Click **Save & Continue**.
 
-3. Select "Native Android" and click "Save & Continue".
+3. Select **Native Android** and click **Save & Continue**.
 
-4. Click "Done" to finish the setup.
+4. Click **Done** to finish the setup.
 
 For a detailed, step-by-step guide, watch the walkthrough video.
 
@@ -57,22 +61,24 @@ For a detailed, step-by-step guide, watch the walkthrough video.
 
 To enable OneSignal in NoSyntax, follow these steps:
 
-1. Navigate to **Settings** > **Keys & IDs** in side menu of OneSignal dashboard.
+1. In the OneSignal dashboard, go to **Settings** > **Keys & IDs**.
 
-2. Copy the **OneSignal App ID** and the **Rest API Key**.
+2. Copy the **OneSignal App ID** and **Rest API Key**.
 
-3. Navigate to **Settings** > **Intergrations** > **OneSignal** in NoSyntax panel.
+3. In the NoSyntax panel, navigate to **Settings** > **Integrations** > **OneSignal**.
 
-4. Paste the **OneSignal App ID** and the **Rest API Key** and enable OneSignal from the switch.
+4. Toggle the **Enable** switch.
+
+5. Paste the **OneSignal App ID** and **Rest API Key** into the corresponding fields.
 
 ## Manual Integration
 
-If you've downloaded the foundation template, which comes as a basic setup without pre-configurations, you can manually set up OneSignal. The necessary dependencies and code are already included.
+If you've downloaded the foundation template, which is a basic setup without pre-configurations, you can manually set up OneSignal. The necessary dependencies and code are already included.
 
-To manually configure OneSignal, follow these steps:
+To configure OneSignal manually, follow these steps:
 
 1. Open the `app-config.yml` file.
 
-2. Update the OneSignal App Id in the integrations > onesignal > app_id.
+2. Update the **OneSignal App ID** under **integrations** > **onesignal** > **app_id**.
 
 3. Rebuild the project to apply the changes.
