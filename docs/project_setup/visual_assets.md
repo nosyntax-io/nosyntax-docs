@@ -31,7 +31,7 @@ For better results, ensure your launcher icon is at least **512x512 pixels**, in
 
 :::
 
-### Manually Adding Launcher Icon for Android
+### Manually Adding Launcher Icon
 
 If you’re using the foundation template and need to add a launcher icon in **Android Studio**, follow these steps:
 
@@ -69,7 +69,7 @@ To add your splash icon, follow these steps:
 
 :::tip
 
-For Android, we use the [**Splash Screen API**](https://developer.android.com/develop/ui/views/launch/splash-screen) to adhere to best practices. Although most splash screen setup is handled automatically, the quality of your splash screen depends on the icon you upload. Please ensure your splash icon meets these criteria:
+We use the [**Splash Screen API**](https://developer.android.com/develop/ui/views/launch/splash-screen) to adhere to best practices. Although most splash screen setup is handled automatically, the quality of your splash screen depends on the icon you upload. Please ensure your splash icon meets these criteria:
 
 - Ensure your splash icon is at least **512x512 pixels**.
 - Use **JPEG** or **PNG** format.
@@ -77,11 +77,11 @@ For Android, we use the [**Splash Screen API**](https://developer.android.com/de
 
 :::
 
-### Manually Adding Splash Icon for Android
+### Manually Adding Splash Icon
 
 If you’re using the foundation template and need to add a splash icon, follow these steps:
 
-1. Place your splash icon file in the `app/src/main/res/drawable/` directory.
+1. Place your splash icon file in the `app/src/main/res/drawable/` directory with the name splash_icon.
 
 2. Rebuild the app to apply the changes.
 
@@ -90,3 +90,25 @@ If you’re using the foundation template and need to add a splash icon, follow 
 For best results, refer to the [**Splash Screen API**](https://developer.android.com/develop/ui/views/launch/splash-screen) documentation for comprehensive guidelines.
 
 :::
+
+## App Icon
+
+App icon is the internal icon represnting the app. It is used in pages such as "About Us" page.
+
+### Adding App Icon
+
+To add your app icon, follow these steps:
+
+1. Navigate to **General** > **Visual Assets**.
+
+2. In the **App Icon** section, click **Upload** and select your icon file.
+
+3. Rebuild the app to apply the changes.
+
+### Manually Adding App Icon
+
+If you’re using the foundation template and need to add a app icon, follow these steps:
+
+1. Place your app icon file in the `app/src/main/res/drawable/` directory with the name app_icon.
+
+2. Rebuild the app to apply the changes.
