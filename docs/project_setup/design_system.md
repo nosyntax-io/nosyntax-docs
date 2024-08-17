@@ -15,7 +15,7 @@ A design system is a set of guidelines that helps you create a consistent look a
 
 The color scheme sets the colors for your app’s design, making sure everything looks consistent and visually appealing. It helps create a memorable user experience and reinforces your brand’s identity.
 
-### Understanding Color Scheme
+### Understanding Color System
 
 To design an appealing theme easily, it's important to understand our Color Scheme system. This system simplifies creating a cohesive and attractive theme without added complexity.
 
@@ -51,7 +51,7 @@ The color scheme is organized into two main sections:
 
 - **Outline Variant**: The color used for dividers and borders, offering subtle separation and visual distinction.
 
-### Customizing Color Scheme
+### Customizing Colors
 
 You can customize the color scheme to match your app’s branding and design preferences. To do so:
 
@@ -60,3 +60,23 @@ You can customize the color scheme to match your app’s branding and design pre
 2. Select and adjust the color for each item based on your design needs.
 
 This allows you to tailor the color scheme to better fit your app’s visual style and user experience requirements.
+
+## Typography
+
+Typography defines the text styles used throughout your app, ensuring consistency and readability. It plays a key role in shaping the overall user experience and reinforcing your brand’s identity.
+
+### Understanding Typography System
+
+Our Typography system is divided into two key categories: **Primary Font** and **Secondary Font**.
+
+- **Primary Font**: Applied to major elements like headings and titles, giving your app a distinct and organized look.
+
+- **Secondary Font**: Used for smaller text, such as descriptions and captions, complementing the primary font for a balanced design.
+
+### Customizing Typography
+
+To customize your typography:
+
+1. Navigate to **Theme Settings** > **Typography**.
+
+2. Select your primary and secondary fonts to fit your app’s style.
