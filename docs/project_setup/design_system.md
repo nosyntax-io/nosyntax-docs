@@ -13,11 +13,11 @@ A design system is a set of guidelines that ensures a consistent look and feel a
 
 ## Color System
 
-Our Color System is designed to make theme creation straightforward. Drawing inspiration from the [Material3](https://m3.material.io/) guidelines. We've carefully selected a core set of colors that balance customizability with ease of use, ensuring your app's design remains consistent, visually appealing, and easy to manage.
+Our Color System is designed to make theme creation straightforward. Drawing inspiration from the [Material3](https://m3.material.io/) guidelines. We've carefully selected a core set of colors that balance customizability with ease of use. From this foundation, we derive additional colors while adhering to the guidelines. This approach keeps your app’s design consistent, visually appealing, and easy to manage without adding unnecessary complexity.
 
-### Understanding the Color System
+### Understanding Color System
 
-The Color System is your guide to applying colors meaningfully across your UI. It’s structured around two key areas: Brand Colors, which represent your brand identity, and Base Colors, which establish the foundational elements of your app's design, like background, surface, and outlines.
+This Color System is your guide to applying colors meaningfully across your UI. It’s structured around two key areas: Brand Colors, which represent your brand identity, and Base Colors, which establish the foundational elements of your app's design, like background, surface, and outlines.
 
 #### Brand Colors
 
@@ -60,8 +60,6 @@ This customization allows you to tailor the color scheme to fit your app’s uni
 ## Typography
 
 Typography defines the text styles used throughout your app, ensuring consistency and readability. It plays a key role in shaping the overall user experience and reinforcing your brand’s identity.
-
-### Understanding Typography System
 
 Our Typography system is divided into two key categories:
 
