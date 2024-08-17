@@ -9,47 +9,51 @@ keywords: [NoSyntax, Design System]
 
 # Design System
 
-A design system is a set of guidelines that helps you create a consistent look and feel across your app. It includes elements like colors, fonts, and other design components. Using a design system ensures that your app’s interface is visually cohesive, easy to use, and aligned with your brand.
+A design system is a set of guidelines that ensures a consistent look and feel across your app. It includes elements like colors, fonts, and other design components, helping to create an interface that is visually cohesive, user-friendly, and aligned with your brand.
+
+:::info
+
+Both the Color Scheme and Typography are part of the instant feature, allowing dynamic updates in real time without the need for a full app rebuild.
+
+:::
 
 ## Color Scheme
 
-The color scheme sets the colors for your app’s design, making sure everything looks consistent and visually appealing. It helps create a memorable user experience and reinforces your brand’s identity.
+The color scheme defines the colors used throughout your app’s design, ensuring consistency and visual appeal. A well-chosen color scheme enhances the user experience and strengthens your brand identity.
 
 ### Understanding Color System
 
-To design an appealing theme easily, it's important to understand our Color Scheme system. This system simplifies creating a cohesive and attractive theme without added complexity.
-
-Inspired by [Material3 guidelines](https://m3.material.io/), we focus on a carefully chosen selection of essential colors rather than the entire palette. This approach ensures high-quality design while balancing customizability with simplicity, making it easier to manage your theme.
+Our Color System is designed to make theme creation straightforward. Drawing inspiration from the [Material3 guidelines](https://m3.material.io/) guidelines, we’ve selected a core set of colors that provide a balance between customizability and ease of use. This approach ensures your app’s design is both consistent and visually appealing, with easy theme management.
 
 The color scheme is organized into two main sections:
 
 #### Brand Colors
 
-- **Primary**: The dominant color used for main UI elements like buttons and app bars, defining the app’s overall look.
+- **Primary**: The main color used for key UI elements like buttons and app bars, setting the overall tone of your app.
 
-- **On Primary**: The color used for text and icons on the primary color background, ensuring they are readable and stand out.
+- **On Primary**: The color for text and icons placed on the primary color background, ensuring they are readable and stand out.
 
-- **Secondary**: An accent color for secondary elements and actions, such as indicators and highlights, that complement the primary color.
+- **Secondary**: An accent color for secondary elements like indicators and highlights, complementing the primary color.
 
-- **On Secondary**: The color used for text and icons on the secondary color background, providing clear contrast for legibility.
+- **On Secondary**: The color for text and icons on the secondary color background, providing clear contrast and legibility.
 
 #### Base Colors (Light & Dark Mode)
 
-- **Background**: The primary color for the app’s background, providing a foundation for the rest of the UI.
+- **Background**: The primary color for the app’s background, providing a neutral foundation for the rest of the UI.
 
-- **On Background**: The color used for text and icons on the background, ensuring they are readable and stand out.
+- **On Background**: The color used for text and icons on the background, ensuring clarity and visibility.
 
-- **Surface**: The color for surfaces such as cards and modals, making them distinct from the background.
+- **Surface**: The color for surface elements like cards and modals, differentiating them from the background.
 
-- **On Surface**: The color for text and icons on surface elements, ensuring clarity and visibility.
+- **On Surface**: The color for text and icons on surface elements, ensuring they remain clear and legible.
 
-- **Surface Variant**: A secondary surface color used for elements like cards or sections, offering subtle contrast from the primary surface color.
+- **Surface Variant**: A secondary surface color offering subtle contrast for different sections within the app.
 
-- **On Surface Variant**: The color used for text and icons on the surface variant, maintaining readability and contrast.
+- **On Surface Variant**: The color for text and icons on the surface variant, maintaining readability and contrast.
 
-- **Outline**: The color used for outlines on elements like buttons, providing definition and focus.
+- **Outline**: The color used for outlines, such as those on buttons, providing structure and focus.
 
-- **Outline Variant**: The color used for dividers and borders, offering subtle separation and visual distinction.
+- **Outline Variant**: The color for dividers and borders, creating subtle separations within the UI.
 
 ### Customizing Colors
 
@@ -57,9 +61,9 @@ You can customize the color scheme to match your app’s branding and design pre
 
 1. Navigate to Theme **Theme Settings** > **Color Scheme**.
 
-2. Select and adjust the color for each item based on your design needs.
+2. Select and adjust the color for each item according to your design needs.
 
-This allows you to tailor the color scheme to better fit your app’s visual style and user experience requirements.
+This customization allows you to tailor the color scheme to fit your app’s unique style and user experience.
 
 ## Typography
 
@@ -67,11 +71,11 @@ Typography defines the text styles used throughout your app, ensuring consistenc
 
 ### Understanding Typography System
 
-Our Typography system is divided into two key categories: **Primary Font** and **Secondary Font**.
+Our Typography system is divided into two key categories:
 
 - **Primary Font**: Applied to major elements like headings and titles, giving your app a distinct and organized look.
 
-- **Secondary Font**: Used for smaller text, such as descriptions and captions, complementing the primary font for a balanced design.
+- **Secondary Font**: Used for smaller text like descriptions and captions, complementing the primary font for a balanced design.
 
 ### Customizing Typography
 
